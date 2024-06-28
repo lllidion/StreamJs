@@ -1,0 +1,15 @@
+{
+    "include": [
+        "src/**/*.ts"
+, "src/modules/stream/stream.controller.ts"    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES6",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "noImplicitAny": false
+    }
+
+}
